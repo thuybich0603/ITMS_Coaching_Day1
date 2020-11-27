@@ -1,0 +1,408 @@
+{
+  "id": "299b69a3-0322-444f-82d9-3c133769b319",
+  "version": "2.0",
+  "name": "Project Day 1",
+  "url": "http://automationpractice.com/index.php?fbclid=IwAR1dbkxOPC0IYwof38R3zKpzuTasLKCYFgh4lMXeo-HyB6V88CZhtkhibqk",
+  "tests": [{
+    "id": "81cfee83-929a-4c7b-a4ea-80477cd712a1",
+    "name": "Bai Tap 1: Pratice Form",
+    "commands": [{
+      "id": "98585f9a-4f6a-4b0c-be1e-e95a6b24e4a8",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.practiceselenium.com/practice-form.html?fbclid=IwAR0rzPNrEftovGOTUygcSdK0LlfXuDNADLP4iPOvXrUGVEv6FSqoerAIZ8E",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d86e55c3-b25a-4d67-a11d-e3b0e3530adb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5060866f-7e3e-4d44-955f-3c901821adcc",
+      "comment": "",
+      "command": "click",
+      "target": "name=firstname",
+      "targets": [
+        ["name=firstname", "name"],
+        ["css=p:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcd57a41-acee-489e-9467-fb1effebc110",
+      "comment": "",
+      "command": "type",
+      "target": "name=firstname",
+      "targets": [
+        ["name=firstname", "name"],
+        ["css=p:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "iTMS"
+    }, {
+      "id": "e738cbdf-673a-403f-91c9-8b4f48c6f87c",
+      "comment": "",
+      "command": "type",
+      "target": "name=lastname",
+      "targets": [
+        ["name=lastname", "name"],
+        ["css=.control-group:nth-child(4) > p:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='lastname']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "Coaching"
+    }, {
+      "id": "69b1fa87-08a9-4bb1-a2cb-564e8e392ade",
+      "comment": "",
+      "command": "click",
+      "target": "id=exp-6",
+      "targets": [
+        ["id=exp-6", "id"],
+        ["css=#exp-6", "css:finder"],
+        ["xpath=//input[@id='exp-6']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[3]/p[2]/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba727d9c-8e24-47d2-b811-2d97e0a7852b",
+      "comment": "",
+      "command": "click",
+      "target": "id=tea2",
+      "targets": [
+        ["id=tea2", "id"],
+        ["name=RedTea", "name"],
+        ["css=#tea2", "css:finder"],
+        ["xpath=//input[@id='tea2']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[4]/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/p[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52fa34f4-7fc1-4a1c-a9cc-7b0f612e998e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox:nth-child(2)",
+      "targets": [
+        ["css=.checkbox:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[4]/p[3]/label", "xpath:idRelative"],
+        ["xpath=//p[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Oolong Tea')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e38e81a-c09c-4419-aec6-ff3889351793",
+      "comment": "",
+      "command": "click",
+      "target": "id=tool-0",
+      "targets": [
+        ["id=tool-0", "id"],
+        ["name=tool", "name"],
+        ["css=#tool-0", "css:finder"],
+        ["xpath=//input[@id='tool-0']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[6]/p[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2feca8b3-9983-4861-a69d-bd78ce431e39",
+      "comment": "",
+      "command": "click",
+      "target": "id=tool-1",
+      "targets": [
+        ["id=tool-1", "id"],
+        ["css=#tool-1", "css:finder"],
+        ["xpath=//input[@id='tool-1']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[6]/p[3]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7c7bb0c-e9fb-4cb6-a7ee-155245db60c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=continents",
+      "targets": [
+        ["id=continents", "id"],
+        ["name=continents", "name"],
+        ["css=#continents", "css:finder"],
+        ["xpath=//select[@id='continents']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[7]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bda7601-ce46-4538-a16b-beaeb748b731",
+      "comment": "",
+      "command": "select",
+      "target": "id=continents",
+      "targets": [],
+      "value": "label=Asia"
+    }, {
+      "id": "f6c54666-3e88-40ab-aa3b-7fec59fd30c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=continents",
+      "targets": [
+        ["id=continents", "id"],
+        ["name=continents", "name"],
+        ["css=#continents", "css:finder"],
+        ["xpath=//select[@id='continents']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[7]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b3d6395-7fca-40ce-94b7-f07c958d76ff",
+      "comment": "",
+      "command": "addSelection",
+      "target": "id=selenium_commands",
+      "targets": [
+        ["id=selenium_commands", "id"],
+        ["name=selenium_commands", "name"],
+        ["css=#selenium_commands", "css:finder"],
+        ["xpath=//select[@id='selenium_commands']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[8]/div/select", "xpath:idRelative"],
+        ["xpath=//div[8]/div/select", "xpath:position"]
+      ],
+      "value": "label=Browser Commands"
+    }, {
+      "id": "68d56d62-062a-41f8-a656-865fea5bbe09",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=#selenium_commands > option:nth-child(4)",
+      "targets": [
+        ["css=#selenium_commands > option:nth-child(4)", "css:finder"],
+        ["xpath=//select[@id='selenium_commands']/option[4]", "xpath:idRelative"],
+        ["xpath=//div[8]/div/select/option[4]", "xpath:position"],
+        ["xpath=//option[contains(.,'Wait Commands')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d49417e5-bc14-4d5f-8199-155a735c3d74",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=#selenium_commands > option:nth-child(5)",
+      "targets": [
+        ["css=#selenium_commands > option:nth-child(5)", "css:finder"],
+        ["xpath=//select[@id='selenium_commands']/option[5]", "xpath:idRelative"],
+        ["xpath=//div[8]/div/select/option[5]", "xpath:position"],
+        ["xpath=//option[contains(.,'WebElement Commands')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc92884d-cc3e-43c9-a245-30c58fe28602",
+      "comment": "",
+      "command": "removeSelection",
+      "target": "id=selenium_commands",
+      "targets": [
+        ["id=selenium_commands", "id"],
+        ["name=selenium_commands", "name"],
+        ["css=#selenium_commands", "css:finder"],
+        ["xpath=//select[@id='selenium_commands']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[8]/div/select", "xpath:idRelative"],
+        ["xpath=//div[8]/div/select", "xpath:position"]
+      ],
+      "value": "label=Browser Commands"
+    }, {
+      "id": "fccae9f8-94f0-4457-a316-a156542d55b7",
+      "comment": "",
+      "command": "addSelection",
+      "target": "id=selenium_commands",
+      "targets": [
+        ["id=selenium_commands", "id"],
+        ["name=selenium_commands", "name"],
+        ["css=#selenium_commands", "css:finder"],
+        ["xpath=//select[@id='selenium_commands']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[8]/div/select", "xpath:idRelative"],
+        ["xpath=//div[8]/div/select", "xpath:position"]
+      ],
+      "value": "label=Wait Commands"
+    }, {
+      "id": "0c9c52cd-8072-496a-9384-29a67ffc55c2",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["name=submit", "name"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[9]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5e3c631-4f18-4643-bca6-d4e42e4428fa",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Welcome",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5c11cc58-e626-4f61-9944-41a8189bf919",
+    "name": "Bai Tap 2: Switch Windows",
+    "commands": [{
+      "id": "beceab89-4559-43f3-828f-ade0b96e01e0",
+      "comment": "",
+      "command": "open",
+      "target": "https://itmscoaching.herokuapp.com/switch-window?fbclid=IwAR3nxtIN_HF1LFbZL7L-RXlRVMh5Ej86FjpJKtiYBbIJsDIVKtd-8jxb7Jw",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37f45137-bfda-45b4-bdfc-6f142a4159ee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb1a0e70-dd56-4b40-9991-ec657b25c0e8",
+      "comment": "",
+      "command": "click",
+      "target": "id=new-tab-button",
+      "targets": [
+        ["id=new-tab-button", "id"],
+        ["css=#new-tab-button", "css:finder"],
+        ["xpath=//button[@id='new-tab-button']", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Open new tab')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5532",
+      "windowTimeout": 2000
+    }, {
+      "id": "34315b8b-b0fd-45c2-bce5-0585bb4718f1",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e019ca9-acbd-4582-82d1-ea1c45d14143",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5532}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aee3d0ab-f954-4993-b3a9-b8c5ea1fa9c3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45b94d50-5116-471f-9ba1-932a123d8440",
+      "comment": "",
+      "command": "click",
+      "target": "id=alert-button",
+      "targets": [
+        ["id=alert-button", "id"],
+        ["css=#alert-button", "css:finder"],
+        ["xpath=//button[@id='alert-button']", "xpath:attributes"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Open alert')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7647ba37-4081-4805-8681-f591bee28c84",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "This is a test alert!",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a8fbd487-1562-440c-95b5-c1b46376da36",
+    "name": "Bai Tap 3: Verify",
+    "commands": [{
+      "id": "275bf9cb-f6f4-4d57-aa89-5fd592cd0a4f",
+      "comment": "",
+      "command": "open",
+      "target": "http://automationpractice.com/index.php?fbclid=IwAR1dbkxOPC0IYwof38R3zKpzuTasLKCYFgh4lMXeo-HyB6V88CZhtkhibqk",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59fd165d-ca43-4a5e-aeb4-b55d6baef9a8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20af8316-67be-4139-bf48-e34e2b471baf",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "My Store",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ef8c8db-c608-4ad7-98ea-7e9aaeabc09a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.login", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/div/div/nav/div/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://automationpractice.com/index.php?controller=my-account']", "xpath:href"],
+        ["xpath=//nav/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b100b86-5728-47f7-8612-dcebe4fabe53",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Login - My Store",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a44e02bf-0838-4700-bb41-3e2ab47ffb50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-lock",
+      "targets": [
+        ["css=.icon-lock", "css:finder"],
+        ["xpath=//button[@id='SubmitLogin']/span/i", "xpath:idRelative"],
+        ["xpath=//p[2]/button/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4439f62c-6e7c-4aa2-aa97-b01dece0cbda",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert > p",
+      "targets": [
+        ["css=.alert > p", "css:finder"],
+        ["xpath=//div[@id='center_column']/div/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'There is 1 error')]", "xpath:innerText"]
+      ],
+      "value": "There is 1 error"
+    }]
+  }],
+  "suites": [{
+    "id": "2a866848-929f-4669-89ad-25b312176d11",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["81cfee83-929a-4c7b-a4ea-80477cd712a1"]
+  }],
+  "urls": ["http://www.practiceselenium.com/practice-form.html?fbclid=IwAR0rzPNrEftovGOTUygcSdK0LlfXuDNADLP4iPOvXrUGVEv6FSqoerAIZ8E", "https://itmscoaching.herokuapp.com/switch-window?fbclid=IwAR3nxtIN_HF1LFbZL7L-RXlRVMh5Ej86FjpJKtiYBbIJsDIVKtd-8jxb7Jw", "https://l.facebook.com/l.php?u=https%3A%2F%2Fitmscoaching.herokuapp.com%2Fswitch-window%3Ffbclid%3DIwAR3nxtIN_HF1LFbZL7L-RXlRVMh5Ej86FjpJKtiYBbIJsDIVKtd-8jxb7Jw&h=AT12Qgs4gk5ceStLumKCm2fQqejJtpbMQCmAlvjSkgLU2Xkvs1ltg-vKh5FS6Jp2T39ZaLWZdV4jZPCkJYjOaMMXAaNkI1XZfBNIaQhX-vYXC9v82LHu0rN6n81-t4zAQsoF&__tn__=-U-U-UK-R&c[0]=AT3xUxbRRQzzzMj1_2pvOYpjoYaGKbY5PlywP__eG88bVOU5idcd_BvC6ROhH_5yB9idyHre1bewIB_OAeOzi-fD0KHAu0S4mN1Hq0yq1lukzvwRwYnFAWWA2s-0D_4vQ2MH1TZpyImSsrnrN3qXMR431RkfmGn-fFFIKkZfLcOVBQT88Ta0WEM32ceb-b3ogaTFs5a6q3ohWEc2", "http://automationpractice.com/index.php?fbclid=IwAR1dbkxOPC0IYwof38R3zKpzuTasLKCYFgh4lMXeo-HyB6V88CZhtkhibqk"],
+  "plugins": []
+}
